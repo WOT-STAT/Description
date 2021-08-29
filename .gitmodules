@@ -7,3 +7,6 @@
 [submodule "AnalyticsFrontend"]
 	path = AnalyticsFrontend
 	url = https://github.com/WOT-STAT/AnalyticsFrontend.git
+[submodule "ModNotification"]
+	path = ModNotification
+	url = https://github.com/WOT-STAT/ModNotification.git
