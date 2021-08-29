@@ -1,0 +1,6 @@
+[submodule "AnalyticsBackend"]
+	path = AnalyticsBackend
+	url = https://github.com/WOT-STAT/AnalyticsBackend.git
+[submodule "EventSaver"]
+	path = EventSaver
+	url = https://github.com/WOT-STAT/EventSaver.git
