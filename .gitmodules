@@ -4,3 +4,6 @@
 [submodule "EventSaver"]
 	path = EventSaver
 	url = https://github.com/WOT-STAT/EventSaver.git
+[submodule "AnalyticsFrontend"]
+	path = AnalyticsFrontend
+	url = https://github.com/WOT-STAT/AnalyticsFrontend.git
