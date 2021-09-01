@@ -1,15 +1,24 @@
 [submodule "AnalyticsBackend"]
 	path = AnalyticsBackend
 	url = https://github.com/WOT-STAT/AnalyticsBackend.git
+	branch = master
 [submodule "EventSaver"]
 	path = EventSaver
 	url = https://github.com/WOT-STAT/EventSaver.git
+	branch = master
 [submodule "AnalyticsFrontend"]
 	path = AnalyticsFrontend
 	url = https://github.com/WOT-STAT/AnalyticsFrontend.git
+	branch = master
 [submodule "ModNotification"]
 	path = ModNotification
 	url = https://github.com/WOT-STAT/ModNotification.git
+	branch = master
 [submodule "SQL"]
 	path = SQL
 	url = https://github.com/WOT-STAT/SQL.git
+	branch = master
+[submodule "WOTMOD"]
+	path = WOTMOD
+	url = https://github.com/WOT-STAT/WOTMOD
+	branch = master
