@@ -4,8 +4,8 @@
 TODO
 
 ## ClickHouse
-| Таблица                                     | Описание      |
-| ------------------------------------------- | ------------- |
-| [OnBattleStart](/events/OnBattleStart.md)   | начало боя    |
-| [OnShot](/events/OnShot.md)                 | выстрел       |
-| [OnBattleResult](/events/OnBattleResult.md) | результат боя |
+| Таблица                                            | Описание      |
+| -------------------------------------------------- | ------------- |
+| [OnBattleStart](/tables/events/OnBattleStart.md)   | начало боя    |
+| [OnShot](/tables/events/OnShot.md)                 | выстрел       |
+| [OnBattleResult](/tables/events/OnBattleResult.md) | результат боя |
