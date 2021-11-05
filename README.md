@@ -5,8 +5,9 @@
    1. [CI/CD](#cicd)
    2. [Стек технологий](#стек-технологий)
 2. [Принцип работы](#принцип-работы)
-3. [Схема БД](tables/README.md)
-4. [Репозиторий со старой версией](https://github.com/SoprachevAK/wot-stat/tree/v1.0.0.0) 
+3. [Работа сервера](serve.md)
+4. [Схема БД](tables/README.md)
+5. [Репозиторий со старой версией](https://github.com/SoprachevAK/wot-stat/tree/v1.0.0.0) 
 
 ***
 
