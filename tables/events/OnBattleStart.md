@@ -23,6 +23,8 @@
 | battleTimeMS        | Int32         | Время в входа в бой относительно конца обратного отсчёта                                                                                                                        |
 | battleLoadTimeMS    | Int32         | Время загрузки карты                                                                                                                                                            |
 | preBattleWaitTimeMS | Int32         | Время ожидания начала отсчёта                                                                                                                                                   |
+| inQueueWaitTimeMS   | Int32         | Время в очереди перед боем                                                                                                                                                      |
+| gameplayMask        | UInt32        | Маска настроек игры (попадать во встречный/штурм/...)                                                                                                                           |
 | spawnPoint_x        | Float32       | Координата спавна                                                                                                                                                               |
 | spawnPoint_y        | Float32       | ^                                                                                                                                                                               |
 | spawnPoint_z        | Float32       | ^                                                                                                                                                                               |
