@@ -86,9 +86,11 @@
 | tankLevel                    | UInt8                       | Уровень танка                                                            |
 | gunTag                       | String                      | Тег орудия                                                               |
 | battleTime                   | Int32                       | Время относительно начала боя в мс                                       |
+| health                       | UInt32                      | ХП игрока в момент выстрела                                              |
 | shellTag                     | Enum8\(...\)                | Тип снаряда                                                              |
 | shellName                    | String                      | Название снаряда                                                         |
 | shellDamage                  | Decimal\(9, 1\)             | Средний снаряда                                                          |
+| damageRandomization          | Decimal\(9, 2\)             | Разброс урона (+- 25%)                                                   |
 | shellPiercingPower           | Decimal\(9, 1\)             | Среднее пробитие снаряда                                                 |
 | shellCaliber                 | Float32                     | Калибр снаряда                                                           |
 | shellSpeed                   | UInt16                      | Скорость снаряда                                                         |
@@ -214,6 +216,10 @@
 | playersResults.damageBlockedByArmor         | Array\(UInt16\)                           | Натанковано                                      |
 | playersResults.xp                           | Array\(UInt16\)                           | Получено опыта                                   |
 | playersResults.damageAssistedStun           | Array\(UInt16\)                           |                                                  |
+| playersResults.killerIndex                  | Array\(UInt8\)                            | Индеск убийцы или -1 если жив                    |
+| playersResults.maxHealth                    | Array\(UInt16\)                           | ХП игрока в начале боя                           |
+| playersResults.health                       | Array\(UInt16\)                           | Оставшиеся ХП игрока на момент завершения боя    |
+| playersResults.isAlive                      | Array\(Bool\)                             | Жив ли игрок на момент завершения боя            |
 |                                             |                                           |                                                  |
 | **personal.\***                             |                                           | Личные показатели. Тоже самое что playersResults |
 | personal.team                               | Array\(UInt8\)                            | Номер команды                                    |
@@ -242,3 +248,8 @@
 | personal.damageBlockedByArmor               | Array\(UInt16\)                           | Натанковано                                      |
 | personal.xp                                 | Array\(UInt16\)                           | Получено опыта                                   |
 | personal.damageAssistedStun                 | Array\(UInt16\)                           |                                                  |
+| personal.killerIndex                        | Array\(UInt8\)                            | Индеск убийцы или -1 если жив                    |
+| personal.maxHealth                          | Array\(UInt16\)                           | ХП начале боя                                    |
+| personal.health                             | Array\(UInt16\)                           | Оставшиеся ХП игрока на момент завершения боя    |
+| personal.isAlive                            | Array\(Bool\)                             | Жив  момент завершения боя                       |
+
